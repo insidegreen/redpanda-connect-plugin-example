@@ -20,8 +20,7 @@ RUN --mount=type=cache,target=/root/.cache/go-build \
 # Pack
 FROM busybox AS package
 
-LABEL maintainer="Ashley Jeffs <ash.jeffs@redpanda.com>"
-LABEL org.opencontainers.image.source="https://github.com/redpanda-data/redpanda-connect-plugin-example"
+LABEL org.opencontainers.image.source="https://github.com/insidegreen/redpanda-connect-plugin-example"
 
 WORKDIR /
 
