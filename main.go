@@ -13,11 +13,7 @@ import (
 	// _ "github.com/redpanda-data/connect/public/bundle/enterprise/v4"
 
 	// Add your plugin packages here
-	_ "github.com/redpanda-data/redpanda-connect-plugin-example/bloblang"
-	_ "github.com/redpanda-data/redpanda-connect-plugin-example/cache"
-	_ "github.com/redpanda-data/redpanda-connect-plugin-example/input/numa-reduce"
-	_ "github.com/redpanda-data/redpanda-connect-plugin-example/output"
-	_ "github.com/redpanda-data/redpanda-connect-plugin-example/processor"
+	_ "github.com/insidegreen/redpanda-connect-plugin-example/input/numa-reduce"
 )
 
 func main() {

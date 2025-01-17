@@ -1,4 +1,4 @@
-module github.com/redpanda-data/redpanda-connect-plugin-example
+module github.com/insidegreen/redpanda-connect-plugin-example
 
 go 1.22.3
 
