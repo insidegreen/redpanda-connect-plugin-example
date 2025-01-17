@@ -15,7 +15,7 @@ import (
 	// Add your plugin packages here
 	_ "github.com/redpanda-data/redpanda-connect-plugin-example/bloblang"
 	_ "github.com/redpanda-data/redpanda-connect-plugin-example/cache"
-	_ "github.com/redpanda-data/redpanda-connect-plugin-example/input"
+	_ "github.com/redpanda-data/redpanda-connect-plugin-example/input/numa-reduce"
 	_ "github.com/redpanda-data/redpanda-connect-plugin-example/output"
 	_ "github.com/redpanda-data/redpanda-connect-plugin-example/processor"
 )
